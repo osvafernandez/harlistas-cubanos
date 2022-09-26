@@ -44,10 +44,18 @@ const Navbar = () => {
         </h1>
 
         <ul className=" uppercase p-4">
-          <li className="p-4 border-b border-gray-600">Inicio</li>
-          <li className="p-4 border-b border-gray-600">Proximo Evento</li>
-          <li className="p-4 border-b border-gray-600">Galeria</li>
-          <li className="p-4 border-b border-gray-600">Contactos</li>
+          <li className="p-4 border-b border-gray-600  hover:text-[#FF6600]">
+            Inicio
+          </li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
+            Proximo Evento
+          </li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
+            Galeria
+          </li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
+            Contactos
+          </li>
         </ul>
       </div>
     </div>
