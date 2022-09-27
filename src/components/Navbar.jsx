@@ -16,11 +16,6 @@ const Navbar = () => {
         src={logoEnglish}
         alt="una foto de harley"
       />
-
-      <h1 className=" text-3xl font-bold p-2 text-[#FF6600]">
-        Harlistas Cubanos
-      </h1>
-
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer hover:text-[#FF6600]">Inicio</li>
         <li className="p-4  cursor-pointer hover:text-[#FF6600]">
