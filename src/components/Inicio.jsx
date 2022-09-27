@@ -1,11 +1,11 @@
 const Inicio = () => {
   return (
-    <div className="text-white">
+    <div id="inicio" className="text-white">
       <div className="flex flex-col justify-center w-full mx-auto max-w-35">
-        <h2 className="justify-start mx-auto mb-3">
+        <h2 className="mx-auto mb-3 font-sans font-bold underline text-xl text-orange-600">
           Evento de Harley-Davidson en Cuba
         </h2>
-        <p className="flex text-start p-3 mx-4 font-sans text-lg ">
+        <p className="flex text-start p-3 mx-4 font-sans text-lg font-semibold">
           Cuba a pesar de ser una isla, la mayor del mar de las Antillas y
           separada de los grandes continentes tampoco ha quedado exenta de ser
           parte de la historia de la Harley-Davidson, la afamada y lujosa
@@ -21,20 +21,12 @@ const Inicio = () => {
           solo hecho de poseer una de estas motocicletas, para convertirse a sí
           mismos en lo que son hoy los “Harlistas Cubanos”. A todos ellos, sus
           familiares y amigos va dedicada esta obra.
-          <img src="" alt="" />
         </p>
-        <div className="flex flex-row justify-between">
-          <img
-            className="flex justify-start max-w-2xl h-auto mx-6 my-5 rounded-md"
-            src="https://www.excelenciasdelmotor.com/sites/default/files/2019-02/portada_24.jpg"
-            alt="foto excelencias del motor"
-          />
-          <p className="flex text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sed
-            numquam incidunt reiciendis obcaecati excepturi expedita quasi
-            provident perferendis delectus!
-          </p>
-        </div>
+        <img
+          className="flex max-w-2xl m-auto h-auto my-5 rounded-md sm:w:sm"
+          src="https://www.excelenciasdelmotor.com/sites/default/files/2019-02/portada_24.jpg"
+          alt="foto excelencias del motor"
+        />
       </div>
     </div>
   );

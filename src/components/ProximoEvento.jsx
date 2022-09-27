@@ -1,6 +1,9 @@
 const ProximoEvento = () => {
   return (
-    <div className="flex flex-col justify-center text-center p-3 mx-2 font-sans text-lg text-white">
+    <div
+      id="prox-event"
+      className="flex flex-col justify-center text-center p-3 mx-2 font-sans text-lg text-white"
+    >
       <h2 className="font-bold text-4xl underline text-orange-600">
         Proximo Evento
       </h2>

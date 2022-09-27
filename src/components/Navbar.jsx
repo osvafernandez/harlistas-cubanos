@@ -16,12 +16,17 @@ const Navbar = () => {
         src={logoEnglish}
         alt="una foto de harley"
       />
+
       <ul className="hidden md:flex">
-        <li className="p-4 cursor-pointer hover:text-[#FF6600]">Inicio</li>
-        <li className="p-4  cursor-pointer hover:text-[#FF6600]">
-          Proximo Evento
+        <li className="p-4 cursor-pointer hover:text-[#FF6600]">
+          <a href="#inicio">Inicio</a>
         </li>
-        <li className="p-4  cursor-pointer hover:text-[#FF6600]">Galeria</li>
+        <li className="p-4  cursor-pointer hover:text-[#FF6600]">
+          <a href="#prox-event">Proximo Evento</a>
+        </li>
+        <li className="p-4  cursor-pointer hover:text-[#FF6600]">
+          <a href="#galeria">Galeria</a>
+        </li>
         <li className="p-4  cursor-pointer hover:text-[#FF6600]">Contactos</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -30,7 +35,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[50%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
