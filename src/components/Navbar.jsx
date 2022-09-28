@@ -27,7 +27,9 @@ const Navbar = () => {
         <li className="p-4  cursor-pointer hover:text-[#FF6600]">
           <a href="#galeria">Galeria</a>
         </li>
-        <li className="p-4  cursor-pointer hover:text-[#FF6600]">Contactos</li>
+        <li className="p-4  cursor-pointer hover:text-[#FF6600]">
+          <a href="#footer">Contactos</a>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -45,13 +47,19 @@ const Navbar = () => {
 
         <ul className=" uppercase p-4">
           <li className="p-4 border-b border-gray-600  hover:text-[#FF6600]">
-            Inicio
+            <a onClick={() => setNav(!nav)} href="#inicio">
+              Inicio
+            </a>
           </li>
           <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
-            Proximo Evento
+            <a onClick={() => setNav(!nav)} href="#prox-event">
+              Proximo Evento
+            </a>
           </li>
           <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
-            Galeria
+            <a onClick={() => setNav(!nav)} href="#galeria">
+              Galeria
+            </a>
           </li>
           <li className="p-4 border-b border-gray-600 hover:text-[#FF6600]">
             Contactos
