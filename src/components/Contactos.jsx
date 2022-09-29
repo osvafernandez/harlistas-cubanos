@@ -2,11 +2,11 @@ import p01 from "./imgs/p01.webp";
 
 const Contactos = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-black">
+    <footer id="footer" className="p-4 bg-white sm:p-6 dark:bg-black">
       <div className="md:flex md:justify-between">
-        <div className=" mb-6 md:mb-0">
+        <div className=" mb-6 md:mb-0 flex flex-row">
           <img src={p01} className="mr-3 h-10 rounded" alt="H-D Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap text-orange-600">
             Harlistas Cubanos
           </span>
         </div>

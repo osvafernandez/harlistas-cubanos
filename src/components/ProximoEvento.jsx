@@ -5,7 +5,7 @@ const ProximoEvento = () => {
       className="flex flex-col justify-center text-center p-3 mx-2 font-sans text-lg text-white"
     >
       <h2 className="font-bold text-4xl underline text-orange-600">
-        Proximo Evento
+        Próximo Evento
       </h2>
       <div className="flex flex-col border my-3 rounded-sm border-orange-600">
         <h4 className="font-bold">
