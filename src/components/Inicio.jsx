@@ -7,7 +7,7 @@ const Inicio = () => {
         <h2 className="mx-auto mb-3 font-sans font-bold text-xl text-orange-600">
           Evento de Harley-Davidson en Cuba
         </h2>
-        <div className="flex flex-row justify-between mx-5 my-3">
+        <div className="flex flex-row justify-center mx-5 my-3">
           <img className="rounded-lg max w-32 h-auto" src={p01} alt="" />
 
           <p className="mx-5 justify-center font-semibold">

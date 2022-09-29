@@ -4,6 +4,7 @@ import p17 from "./imgs/p17.jpg";
 import p19 from "./imgs/p19.jpg";
 import p20 from "./imgs/p20.jpg";
 import p16 from "./imgs/p16.jpg";
+import p002 from "./imgs/p002.jpg";
 
 const Galeria = () => {
   return (
@@ -32,6 +33,9 @@ const Galeria = () => {
         </div>
         <div>
           <img src={p16} alt="" />
+        </div>
+        <div>
+          <img src={p002} alt="" />
         </div>
       </Carousel>
       <h2 className="font-bold m-auto">Coming Soon...</h2>
