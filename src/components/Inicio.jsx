@@ -7,15 +7,15 @@ const Inicio = () => {
         <h2 className="mx-auto mb-3 font-sans font-bold text-xl text-orange-600">
           Evento de Harley-Davidson en Cuba
         </h2>
-        <div className="flex flex-row justify-center mx-5 my-3">
-          <img className="rounded-lg max w-32 h-auto" src={p01} alt="" />
+        <div className="flex flex-col items-center justify-center mx-5 my-3">
+          <img className="rounded-lg max w-32 h-auto my-4" src={p01} alt="" />
 
-          <p className="mx-5 justify-center font-semibold">
+          <p className="mx-5 text-center justify-center font-semibold">
             El encuentro de harlistas cubanos se realiza cada 2do fin de semana
             de febrero en el balneario de Varadero.
           </p>
         </div>
-
+        <hr className="border-orange-600 m-0" />
         <div className="my-3">
           <p className="flex text-center p-3 mx-4 font-sans text-lg font-semibold">
             Cuba a pesar de ser una isla, la mayor del mar de las Antillas y
