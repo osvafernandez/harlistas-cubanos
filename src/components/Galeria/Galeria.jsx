@@ -1,9 +1,8 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import p17 from './imgs/p17.jpg';
-import p19 from './imgs/p19.jpg';
-import p20 from './imgs/p20.jpg';
-// import p16 from "./imgs/p16.jpg";
+import picture3 from '../../assets/images/picture-3.jpg';
+import picture4 from '../../assets/images/picture-4.jpg';
+import picture5 from '../../assets/images/picture-5.jpg';
 
 function Galeria() {
 	return (
@@ -20,13 +19,13 @@ function Galeria() {
 				swipeable
 			>
 				<div>
-					<img src={p17} alt="" />
+					<img src={picture3} alt="" />
 				</div>
 				<div>
-					<img src={p19} alt="" />
+					<img src={picture4} alt="" />
 				</div>
 				<div>
-					<img src={p20} alt="" />
+					<img src={picture5} alt="" />
 				</div>
 				<div>{/* <img src={p16} alt="" /> */}</div>
 			</Carousel>

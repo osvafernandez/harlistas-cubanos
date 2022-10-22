@@ -1,8 +1,4 @@
-import Navbar from './components/Navbar';
-import Inicio from './components/Inicio';
-import ProximoEvento from './components/ProximoEvento';
-import Galeria from './components/Galeria';
-import Contactos from './components/Contactos';
+import { Navbar, Inicio, Contactos, Galeria, ProximoEvento } from './components';
 
 function App() {
 	return (

@@ -1,4 +1,4 @@
-import p01 from './imgs/p01.webp';
+import logo from '../../assets/images/logo.webp';
 
 function Inicio() {
 	return (
@@ -8,7 +8,7 @@ function Inicio() {
 					Evento de Harley-Davidson en Cuba
 				</h2>
 				<div className="flex flex-col items-center justify-center mx-5 my-3">
-					<img className="rounded-lg max w-32 h-auto my-4" src={p01} alt="" />
+					<img className="rounded-lg max w-32 h-auto my-4" src={logo} alt="" />
 
 					<p className="mx-5 text-center justify-center font-semibold">
 						El encuentro de harlistas cubanos se realiza cada 2do fin de semana de febrero en el balneario

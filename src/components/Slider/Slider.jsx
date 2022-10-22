@@ -1,17 +1,11 @@
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { useState } from 'react';
-import p17 from './imgs/p17.jpg';
-import p19 from './imgs/p19.jpg';
-import p20 from './imgs/p20.jpg';
-// import p16 from "./imgs/p16.jpg";
+import picture3 from '../../assets/images/picture-3.jpg';
+import picture4 from '../../assets/images/picture-4.jpg';
+import picture5 from '../../assets/images/picture-5.jpg';
 
 function Slider() {
-	const images = [
-		// p16,
-		p17,
-		p19,
-		p20
-	];
+	const images = [picture3, picture4, picture5];
 	const [activeSlide, setActiveSlide] = useState(1);
 
 	const prevSliderHandler = (index) => {

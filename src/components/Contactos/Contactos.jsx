@@ -1,12 +1,12 @@
 import { BsFacebook, BsTwitter, BsGithub, BsWhatsapp } from 'react-icons/bs';
-import p01 from './imgs/p01.webp';
+import logo from '../../assets/images/logo.webp';
 
 function Contactos() {
 	return (
 		<footer id="footer" className="p-4 bg-white sm:p-6 dark:bg-black">
 			<div className="md:flex md:justify-between">
 				<div className=" mb-6 md:mb-0 flex flex-row">
-					<img src={p01} className="mr-3 h-10 rounded" alt="H-D Logo" />
+					<img src={logo} className="mr-3 h-10 rounded" alt="H-D Logo" />
 					<span className="self-center text-2xl font-semibold whitespace-nowrap text-orange-600">
 						Harlistas Cubanos
 					</span>
