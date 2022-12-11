@@ -27,7 +27,9 @@ function Galeria() {
 				<div>
 					<img src={picture5} alt="" />
 				</div>
-				<div>{/* <img src={p16} alt="" /> */}</div>
+				<div>
+					<img src="https://www.excelenciasdelmotor.com/sites/default/files/2019-02/portada_24.jpg" alt="" />
+				</div>
 			</Carousel>
 			<h2 className="font-bold m-auto">Coming Soon...</h2>
 		</div>

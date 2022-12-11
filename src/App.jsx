@@ -6,7 +6,7 @@ function App() {
 			<Navbar />
 			<hr className=" border-orange-600 m-0 mt-3 py-1" />
 			<Inicio />
-			<hr className="border-3 border-orange-600 m-0 mt-3 py-3" />
+			{/* <hr className="border-3 border-orange-600 m-0 mt-3 py-3" /> */}
 			<ProximoEvento />
 			<hr className="border-3 border-orange-600 m-0 mt-3 py-3" />
 			<Galeria />

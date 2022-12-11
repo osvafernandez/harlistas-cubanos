@@ -3,10 +3,10 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import wideLogoEn from '../../assets/images/wide-logo-en.png';
 
 const MENU_ITEMS = [
-	{
+	/* 	{
 		text: 'Inicio',
 		link: '#inicio'
-	},
+	}, */
 	{
 		text: 'Proximo Evento',
 		link: '#prox-event'
@@ -14,11 +14,11 @@ const MENU_ITEMS = [
 	{
 		text: 'Galeria',
 		link: '#galeria'
-	},
-	{
+	}
+	/* {
 		text: 'Contactos',
 		link: '#footer'
-	}
+	} */
 ];
 
 function Navbar() {

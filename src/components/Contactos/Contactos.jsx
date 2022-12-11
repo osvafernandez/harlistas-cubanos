@@ -1,4 +1,4 @@
-import { BsFacebook, BsTwitter, BsGithub, BsWhatsapp } from 'react-icons/bs';
+import { BsFacebook, BsTwitter, BsGithub, BsWhatsapp, BsMailbox2 } from 'react-icons/bs';
 import logo from '../../assets/images/logo.webp';
 
 function Contactos() {
@@ -11,63 +11,12 @@ function Contactos() {
 						Harlistas Cubanos
 					</span>
 				</div>
-				{/* <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
-            </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Flowbite
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Tailwind CSS
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Follow us
-            </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
-              <li className="mb-4">
-                <a href="#" className="hover:underline ">
-                  Github
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Discord
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Legal
-            </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> */}
 			</div>
 			<hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 			<div className="sm:flex sm:items-center sm:justify-between">
-				<span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022</span>
+				<span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+					© 2022 *web in development*
+				</span>
 				<div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 					<a
 						href="https://wa.me/+5358117628"
@@ -95,6 +44,13 @@ function Contactos() {
 					>
 						<BsGithub />
 						<span className="sr-only">GitHub account</span>
+					</a>
+					<a
+						href="osvanaranjo96@gmail.com"
+						className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+					>
+						<BsMailbox2 />
+						<span className="sr-only">Mail account</span>
 					</a>
 				</div>
 			</div>
