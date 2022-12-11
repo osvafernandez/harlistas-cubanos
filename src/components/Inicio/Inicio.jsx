@@ -6,11 +6,6 @@ function Inicio() {
 			<div className="flex flex-col justify-center w-full mx-auto max-w-35">
 				<div className="flex flex-col items-center justify-center mx-5 my-3">
 					<img className="rounded-lg max w-32 h-auto my-4" src={logo} alt="" />
-
-					{/* 		<p className="flex text-center p-3 mx-4 font-sans text-lg font-semibold">
-						El encuentro de harlistas cubanos se realiza cada 2do fin de semana de febrero en el balneario
-						de Varadero.
-					</p> */}
 				</div>
 				<hr className="border-orange-600 m-0" />
 				{/* <div className="my-3">
@@ -28,11 +23,6 @@ function Inicio() {
 						todos ellos, sus familiares y amigos va dedicada esta obra.
 					</p>
 				</div> */}
-				{/* <img
-					className="flex max-w-2xl m-auto h-auto my-5 rounded-md"
-					src="https://www.excelenciasdelmotor.com/sites/default/files/2019-02/portada_24.jpg"
-					alt="foto excelencias del motor"
-				/> */}
 			</div>
 		</div>
 	);
