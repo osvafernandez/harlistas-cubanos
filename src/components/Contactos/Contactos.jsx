@@ -1,4 +1,4 @@
-import { BsFacebook, BsTwitter, BsGithub, BsWhatsapp, BsMailbox2 } from 'react-icons/bs';
+import { BsFacebook, BsTwitter, BsGithub, BsWhatsapp, BsEnvelopeFill } from 'react-icons/bs';
 import logo from '../../assets/images/logo.webp';
 
 function Contactos() {
@@ -46,10 +46,10 @@ function Contactos() {
 						<span className="sr-only">GitHub account</span>
 					</a>
 					<a
-						href="osvanaranjo96@gmail.com"
+						href="mailto:osvanaranjo96@gmail.com"
 						className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
 					>
-						<BsMailbox2 />
+						<BsEnvelopeFill />
 						<span className="sr-only">Mail account</span>
 					</a>
 				</div>
