@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.webp';
 
 function Contactos() {
 	return (
-		<footer id="footer" className="p-4 bg-white sm:p-6 dark:bg-black">
+		<footer id="footer" className="p-4 bg-black sm:p-6 ">
 			<div className="md:flex md:justify-between">
 				<div className=" mb-6 md:mb-0 flex flex-row">
 					<img src={logo} className="mr-3 h-10 rounded" alt="H-D Logo" />
