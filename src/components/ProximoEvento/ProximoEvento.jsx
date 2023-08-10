@@ -2,10 +2,12 @@ function ProximoEvento() {
 	return (
 		<div id="prox-event" className="flex flex-col justify-center text-center p-3 mx-2 font-sans text-lg text-white">
 			<h2 className="font-bold text-4xl underline text-orange-600">Próximo Evento</h2>
-			<div className="flex flex-col border my-3 rounded-sm border-orange-600">
-				<h4 className="font-bold">PROGRAMA 11no ENCUENTRO HARLISTAS CUBANOS VARADERO</h4>
-				<h4 className="font-bold">FEBRERO 8 al 12 DE 2023</h4>
-				<ul className="flex flex-col text-left ml-8 mr-4 list-disc space-y-2 font-serif font-semibold">
+			<div className="flex flex-col my-3 rounded-sm">
+				<h4 className="font-bold">PROGRAMA 13no ENCUENTRO HARLISTAS CUBANOS VARADERO</h4>
+				<h5 className="my-5">Programa del siguiente Varadero Rally todavia no se ha definido</h5>
+				
+				{/* <h4 className="font-bold">FEBRERO 8 al 12 DE 2023</h4> */}
+				{/* <ul className="flex flex-col text-left ml-8 mr-4 list-disc space-y-2 font-serif font-semibold">
 					<li className="">
 						Miércoles 8 de febrero 3:00pm. Parque Josone Varadero. Recibimiento, Inscripciones, Música,
 						Proyección de videos, fotos de encuentros anteriores, entrega de donaciones de las
@@ -32,8 +34,8 @@ function ProximoEvento() {
 						Domingo 12 de febrero 10:00am. Parque Josone Varadero Premiaciones. 11:30am. Rodada al lugar de
 						la foto de recuerdo del encuentro. 1:30pm. Almuerzo de despedida.
 					</li>
-				</ul>
-				<p className="justify-center mx-3 py-1">
+				</ul> */}
+				 <p className="justify-center mx-3 py-1">
 					AUSPICIAN CUBASOL, MINTUR, CULTURA, HAVANATUR. <br /> DESEAMOS QUE DISFRUTE DE UN ENCUENTRO
 					MEMORABLE Y QUE SU ESTANCIA EN VARADERO SEA PLACENTERA, POR LO QUE LLAMAMOS A LA DISCIPLINA EN LA
 					VÍA, EVITE SONAR EL CLAXON A ALTAS HORAS DE LA NOCHE Y CIRCULAR POR ENCIMA DE LA VELOCIDAD
